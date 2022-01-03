@@ -8,7 +8,7 @@ function services() {
   return (
     <>
   <Head>
-  <title>Services</title>
+  <title>Services | Mani Web Dev</title>
   <meta name="description" content="Free Web tutorials"/>
   <meta name="keywords" content="HTML, CSS, JavaScript"/>
   <meta name="author" content="John Doe"/>
@@ -49,7 +49,7 @@ function services() {
             height="420"
           ></Image>
         </div>
-        <div className="serimg">
+        <div className="seirimg">
           <h2 className="wbd">Website Development</h2>
           <span>
             <p className="serpara">
@@ -63,7 +63,7 @@ function services() {
         </div>
       </div>
       <div className="sersec3">
-        <div className="serimg1">
+        <div className="seerimg1">
           <h2 className="wbd1">Website Design</h2>
           <span>
             <p className="serpara1">
@@ -94,7 +94,7 @@ function services() {
             height="420"
           ></Image>
         </div>
-        <div className="serimg2">
+        <div className="seerimg2">
           <h2 className="wbd3">Website Redesign</h2>
           <span>
             <p className="serpara2">
@@ -107,7 +107,7 @@ function services() {
         </div>
       </div>
       <div className="sersec5">
-        <div className="serimg3">
+        <div className="serimg33">
           <h2 className="wbd4">Search Engine Optimization</h2>
           <span>
             <p className="serpara4">

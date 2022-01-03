@@ -9,7 +9,7 @@ function aboutme() {
   return (
     <>
   <Head>
-  <title>About Me</title>
+  <title>About Me | Mani Web Dev</title>
   <meta name="description" content="Free Web tutorials"/>
   <meta name="keywords" content="HTML, CSS, JavaScript"/>
   <meta name="author" content="John Doe"/>
@@ -33,9 +33,9 @@ function aboutme() {
         <div className={styles.ser__tops}>
           <Image
             className={styles.img_top}
-            src="/images/usm.jpg"
-            width="450"
-            height="420"
+            src="/images/mee.jpeg"
+            width="500"
+            height="500"
           ></Image>
         </div>
        
@@ -89,10 +89,10 @@ function aboutme() {
         
         <div className={styles.setimg}>
            <Image
-              className="see_pimg"
-              src="/images/setu.jpg"
+              className={styles.see_pimg}
+              src="/images/seut.jpeg"
               width="1000"
-              height="500"
+              height="600"
             ></Image></div>
       </div>
       <Action/>

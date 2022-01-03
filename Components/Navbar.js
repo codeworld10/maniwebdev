@@ -33,7 +33,7 @@ function Navbar() {
       <div className="navbar">
         <div className="pcmenu">
           <div className="logomain">
-            <Image src="/images/Mani.png" width="190" height="140"></Image>
+            <Image className="logos" src="/images/Maniweb.png" width="100" height="100"></Image>
           </div>
           <ul>
             <li className="list">
@@ -79,7 +79,7 @@ function Navbar() {
 
       <header className="mobile-container ">
         <div className="logomob">
-          <Image src="/images/Mani.png" width="200" height="200"></Image>
+          <Image src="/images/Maniweb.png" width="200" height="200"></Image>
         </div>
         <nav className="topnav">
           <div className="burger">

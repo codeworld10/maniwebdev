@@ -10,7 +10,7 @@ function index() {
   return (
     <>
     <Head>
-  <title>Home</title>
+  <title>Home | Your Site Maker</title>
   <meta name="description" content="Free Web tutorials"/>
   <meta name="keywords" content="HTML, CSS, JavaScript"/>
   <meta name="author" content="John Doe"/>
@@ -240,7 +240,7 @@ function index() {
         </div>
       </div>
       <div className="abt">
-      <Link href="/about">
+      <Link href="/aboutme">
       <button className="abt_me">About Me</button>
               </Link>
         

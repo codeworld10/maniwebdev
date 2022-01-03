@@ -3,6 +3,7 @@ import styles from "../styles/contact.module.css";
 import Image from "next/image";
 import Footer from "../Components/Footer";
 import Action from "../Components/Action";
+import Head from "next/head"
 function contact() {
 
     const instacnt = () => {
@@ -24,6 +25,14 @@ function contact() {
       
   return (
     <>
+      <Head>
+  <title>Contact Us | Mani Web Dev</title>
+  <meta name="description" content="Free Web tutorials"/>
+  <meta name="keywords" content="HTML, CSS, JavaScript"/>
+  <meta name="author" content="John Doe"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</Head>
+
       <Navbar />
       <div className={styles.contact_main}>
         <div className={styles.cnt_text}>
