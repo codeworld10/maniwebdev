@@ -203,6 +203,10 @@ border-radius: 20px;
     transform: scale(1, 1);
   }
 }
+.my_setup{
+  background-color: #1d1d1d;
+  padding: 10px 10px 10px 10px;
+}
 
 @media (max-width: 850px) {
   .asection__main {

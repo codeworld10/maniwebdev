@@ -11,7 +11,7 @@ function Footer() {
               </Link>
             </div>
             
-            <Link href="/services">
+            <Link href="/revision">
                 <a className="rvsn">Revision</a>
               </Link>
         </div>
