@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navv from "../Components/Navv";
 import styles from "../styles/contact.module.css";
 import Image from "next/image";
 import Footer from "../Components/Footer";
@@ -33,7 +33,7 @@ function contact() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </Head>
 
-      <Navbar />
+      <Navv />
       <div className={styles.contact_main}>
         <div className={styles.cnt_text}>
           <h1 className={styles.headcont}>Get In Touch</h1>

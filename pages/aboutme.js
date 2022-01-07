@@ -1,5 +1,5 @@
 import Footer from "../Components/Footer";
-import Navbar from "../components/Navbar";
+import Navv from "../Components/Navv";
 import Image from "next/image";
 import styles from "../styles/aboutme.module.css";
 import Head from "next/head";
@@ -16,7 +16,7 @@ function aboutme() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
-      <Navbar />
+      <Navv />
 
       <div className={styles.asection__main}>
         <div className={styles.sertxt}>

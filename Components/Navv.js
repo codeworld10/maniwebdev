@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-function Navbar() {
+function Navv() {
   const handle = () => {
     var x = document.getElementById("menu");
     if (x.style.display === "block") {
@@ -118,4 +118,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navv;

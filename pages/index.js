@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navv from "../Components/Navv";
 import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
@@ -23,7 +23,7 @@ function index() {
         <meta name="author" content="Usman" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <Navbar />
+      <Navv />
       {/* section1 starts */}
       <div className="section1">
         <div className="text">

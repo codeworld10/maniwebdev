@@ -1,10 +1,10 @@
 import Footer from "../Components/Footer";
-import Navbar from "../components/Navbar";
+import Navv from "../Components/Navv";
 
 function privacy() {
   return (
     <>
-      <Navbar />
+      <Navv />
       <div className="pri_v">
         <h1>Privacy Policy</h1>
         <p>

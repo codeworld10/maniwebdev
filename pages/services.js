@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navv from "../Components/Navv";
 import Image from "next/image";
 import Footer from "../Components/Footer";
 import Link from "next/link";
@@ -22,7 +22,7 @@ function services() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
-      <Navbar />
+      <Navv />
 
       <div className="sermain">
         <div className="serteext">
