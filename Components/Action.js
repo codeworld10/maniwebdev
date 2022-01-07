@@ -7,7 +7,7 @@ function Action() {
     return (
         <div>
               <div onClick={whats} className="bodydown">
-                 <h4 className="call">Call Now</h4> 
+                 <h4 className="call">Contact Now</h4> 
              <Image
             className="sere_img"
             src="/images/what.png"

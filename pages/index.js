@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Link from "next/link";
 import Image from "next/image";
-import Head from "next/head"
+import Head from "next/head";
 import Footer from "../Components/Footer";
 import Action from "../Components/Action";
 
@@ -9,30 +9,34 @@ import Action from "../Components/Action";
 function index() {
   return (
     <>
-    <Head>
-  <title>Home | Your Site Maker</title>
-  
-  <meta name="description" content="Free Web tutorials"/>
-  <meta name="keywords" content="HTML, CSS, JavaScript"/>
-  <meta name="author" content="John Doe"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-</Head>
+      <Head>
+        <title>Home | Your Site Builder</title>
+
+        <meta
+          name="description"
+          content="Are you looking a website developer. then you are at the right place. I will create and design professional websites for you in cheap rates."
+        />
+        <meta
+          name="keywords"
+          content=" freelance Website developer near me, Website company near me, Front end developer, Wordpress developer, Website desingner, Cheap website developer, cheap website developer company,"
+        />
+        <meta name="author" content="Usman" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <Navbar />
       {/* section1 starts */}
       <div className="section1">
         <div className="text">
           <div className="head">
-            <h1>Your Site Maker</h1>
+            <h1>Your Site Builder</h1>
           </div>
-          <p className="para">
-          Passionate about helping businesses to grow online.
+          <p className="para">My passion can drive your business growth</p>
+          <span>
+            <p className="para">
+              I can create a professional website for your company
             </p>
-            <span>
-              <p className="para">
-              I will create a professional-looking website for your business.
-              </p>
-            </span>
-          
+          </span>
+
           <div className="butto">
             <span>
               <Link href="/services">
@@ -59,19 +63,17 @@ function index() {
       </div>
       <div className="para3">
         <p>
-        We aim to provide you best services at cheap rates. I started my
-          business locally and now
+          We aim to provide you a reasonable offer. I started my business
+          locally and now
         </p>
         <span>
           <p>
-          moving my business to the next level by offering my services online from national to international.
+            try to expand my business to the next level by offering my services
+            online from national to international.
           </p>
         </span>
       </div>
-      <div className="howw">
-        <h3>How It Works!</h3>
-      </div>
-     
+
       <div className="section2">
         <div className="secicon">
           <div className="icon">
@@ -86,7 +88,9 @@ function index() {
             </span>
             <span className="pre">
               <p className="pp1">
-              I do deep research on my project about business competition ranking etc. So that I will come out with a good idea, That will satisfy you.
+                I do deep research on my project about business competition
+                ranking etc. So that I will come out with a good idea, That will
+                satisfy you.
               </p>
             </span>
           </div>
@@ -100,12 +104,13 @@ function index() {
               height="64"
             ></Image>
             <span className="re">
-              <h2 className="he1">Designing</h2>
+              <h2 className="he1">Design</h2>
             </span>
             <span className="pre">
               <p className="pp1">
-             It's time to start creative work. I will deliver you a design and do consider changes, or you have already designed then share it to me.
-                
+                This is the part of my CREATIVE work. I will offer you my ideas
+                of design and do consider changes, or you have already thought
+                about design and share your ideas with me.
               </p>
             </span>
           </div>
@@ -123,7 +128,9 @@ function index() {
             </span>
             <span className="pre">
               <p className="pp1">
-              It's time to convert your ideas into reality. Create Pages, upload content, and be responsive adding layouts and SEO for Google ranking.
+                It's time to convert our ideas into reality. Create Pages,
+                upload content, adding responsive layouts and SEO for Google
+                ranking.
               </p>
             </span>
           </div>
@@ -144,7 +151,7 @@ function index() {
             </span>
             <span className="pree">
               <p className="pp2">
-              Website links pages are working, and the site is responsive for
+                Website links pages are working, and the site is responsive for
                 different devices and page speed, etc.
               </p>
             </span>
@@ -159,12 +166,13 @@ function index() {
               height="64"
             ></Image>
             <span className="ree">
-              <h2  className="he2">Putting Live</h2>
+              <h2 className="he2">Putting Live</h2>
             </span>
             <span className="pree">
               <p className="pp2">
-              Here I will put your website live on the server. So that it will
-                be visible to everyone worldwide on the browser.
+                Here i will push website content to the server, so that it will
+                be reachable to everyone with internet connection on this
+                planet.
               </p>
             </span>
           </div>
@@ -178,17 +186,18 @@ function index() {
               height="64"
             ></Image>
             <span className="ree">
-              <h2  className="he2">Delivery</h2>
+              <h2 className="he2">Delivery</h2>
             </span>
             <span className="pree">
               <p className="pp2">
-              Hooray! Now it's time to deliver your business website to you. when you are 100% satisfied with my work.
+                Hooray! Now it's time to deliver your business website to you.
+                when you are 100% satisfied with my work.
               </p>
             </span>
           </div>
         </div>
       </div>
-    
+
       <div className="choose">
         <div className="cho">
           <h3>Why Choose Me?</h3>
@@ -241,13 +250,13 @@ function index() {
         </div>
       </div>
       <div className="abt">
-      <Link href="/aboutme">
-      <button className="abt_me">About Me</button>
-              </Link>
-        
+        <Link href="/aboutme">
+          <button className="abt_me">About Me</button>
+        </Link>
       </div>
-      <Action/>
-      <Footer/>
+    
+      <Action />
+      <Footer />
     </>
   );
 }

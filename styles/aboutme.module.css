@@ -135,44 +135,7 @@
   width: 910px;
   font-size: 18px;
 }
-.seet {
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-size: 30px;
-  opacity: 0;
-  transform: translate(-150px, 0) scale(0.3);
-  animation: leftRight 3.5s forwards;
-  animation-delay: 2s;
-}
-@keyframes leftRight {
-  40% {
-    transform: translate(50px, 0) scale(0.7);
-    opacity: 1;
-    color: #f00f80;
-  }
 
-  60% {
-    color: #0f40ba;
-  }
-
-  80% {
-    transform: translate(0) scale(2);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translate(0) scale(1);
-    opacity: 1;
-  }
-}
-.seet:hover {
-  color: #f00f80;
-}
-.my_setup {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 .see_pimg:hover{
   animation: zoom-in-zoom-out 7s ease-out infinite;
 }

@@ -11,9 +11,7 @@ function Footer() {
               </Link>
             </div>
             
-            <Link href="/revision">
-                <a className="rvsn">Revision</a>
-              </Link>
+          
         </div>
         <div className='footer'>
         <p className='ftrpara'>© 2022 ManiWebDev All rights reserved</p>  

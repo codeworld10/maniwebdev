@@ -36,6 +36,7 @@ div .contact_main{
  
 }
 
+
 .ct_para{
     font-size: 19px;
 }
@@ -59,10 +60,12 @@ div .contact_main{
       display: flex;
       justify-content: space-around;
       align-items: center;
+      background-color: #1d1d1d;
+      padding: 10px 10px 10px 10px;
   }
   .cntmedia{
       cursor: pointer;
-      margin-top: 30px;
+      margin-top: 10px;
       padding: 5px;
   }
   .cntmedia:hover{
@@ -100,6 +103,7 @@ div .contact_main{
       opacity: 1;
     }
   }
+  
   @media (max-width: 870px) {
     div .contact_main{
       height: 860px;
@@ -108,6 +112,9 @@ div .contact_main{
       justify-content: space-around;
       align-items: center;
     }
+   .cnt_text{
+     text-align: center;
+   }
 
   }
 

@@ -62,44 +62,44 @@ function contact() {
           <Image
             onClick={facecnt}
             src="/images/fpic.png"
-            width="100"
-            height="100"
+            width="70"
+            height="70"
           ></Image>
         </div>
         <div className={styles.cntmedia}>
           <Image
             onClick={instacnt}
             src="/images/insta.png"
-            width="100"
-            height="100"
+            width="70"
+            height="70"
           ></Image>
         </div>
         <div className={styles.cntmedia}>
           <Image
             onClick={linkecnt}
             src="/images/link.png"
-            width="100"
-            height="100"
+            width="70"
+            height="70"
           ></Image>
         </div>
         <div className={styles.cntmedia}>
           <Image
             onClick={twitcnt}
             src="/images/twit.png"
-            width="100"
-            height="100"
+            width="70"
+            height="70"
           ></Image>
         </div>
         <div className={styles.cntmedia}>
           <Image
             onClick={whatcnt}
             src="/images/what.png"
-            width="100"
-            height="100"
+            width="70"
+            height="70"
           ></Image>
         </div>
       </div>
-      <div></div>
+     
       <Action/>
       <Footer />
     </>

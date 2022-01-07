@@ -3,17 +3,24 @@ import Image from "next/image";
 import Footer from "../Components/Footer";
 import Link from "next/link";
 import Action from "../Components/Action";
-import Head from "next/head"
+import Head from "next/head";
+
 function services() {
   return (
     <>
-  <Head>
-  <title>Services | Mani Web Dev</title>
-  <meta name="description" content="Free Web tutorials"/>
-  <meta name="keywords" content="HTML, CSS, JavaScript"/>
-  <meta name="author" content="John Doe"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-</Head>
+      <Head>
+        <title>Services | Mani Web Dev</title>
+        <meta
+          name="description"
+          content="Mani Web dev provides best services to his clients with 100% satisfaction and guarantee. If you need website for your business website or you need company website, woocommerce website or nextjs website then feel free to contact Mani web dev."
+        />
+        <meta
+          name="keywords"
+          content="Website services, Website developer,freelance website developer sites,freelance wordpress developer needed,denver freelance wordpress developer,hire wordpress developer,wordpress freelancer near me,web developer for hire,website designer freelancer,front end web developer for hire, front end web developer for hire, best website developer near me,"
+        />
+        <meta name="author" content="Usman" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
 
       <Navbar />
 
@@ -126,6 +133,7 @@ function services() {
             width="540"
             height="420"
           ></Image>
+       
         </div>
       </div>
       <div className="tol">
@@ -139,6 +147,7 @@ function services() {
             width="50"
             height="50"
           ></Image>
+             <span><p className="tlnam">HTML5</p></span>
         </div>
         <div className="tollimg">
           <Image
@@ -147,6 +156,7 @@ function services() {
             width="50"
             height="50"
           ></Image>
+            <span><p className="tlnam">CSS3</p></span>
         </div>
         <div className="tollimg">
           <Image
@@ -155,6 +165,7 @@ function services() {
             width="50"
             height="50"
           ></Image>
+            <span><p className="tlnam">Javascript</p></span>
         </div>
         <div className="tollimg">
           <Image
@@ -163,6 +174,7 @@ function services() {
             width="50"
             height="50"
           ></Image>
+            <span><p className="tlnam">React Js</p></span>
         </div>
       </div>
 
@@ -174,6 +186,7 @@ function services() {
             width="50"
             height="50"
           ></Image>
+            <span><p className="tlnam">Next Js</p></span>
         </div>
         <div className="tollimg1">
           <Image
@@ -182,6 +195,7 @@ function services() {
             width="50"
             height="50"
           ></Image>
+            <span><p className="tlnam">WordPress</p></span>
         </div>
         <div className="tollimg1">
           <Image
@@ -190,6 +204,7 @@ function services() {
             width="50"
             height="50"
           ></Image>
+            <span><p className="tlnam">Figma</p></span>
         </div>
       </div>
       <div className="serbtn">
@@ -198,6 +213,7 @@ function services() {
         </Link>
       </div>
       <Action />
+
       <Footer />
     </>
   );
